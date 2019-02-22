@@ -115,3 +115,10 @@ C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.Movies.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMemberShipType.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMemberShipName.resources
