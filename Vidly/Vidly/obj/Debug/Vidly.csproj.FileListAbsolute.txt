@@ -1,0 +1,117 @@
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Vidly.dll.config
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Vidly.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Vidly.pdb
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Antlr3.Runtime.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\EntityFramework.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Web.Infrastructure.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Newtonsoft.Json.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Owin.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Helpers.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Mvc.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Optimization.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Razor.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.Deployment.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.Razor.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\WebGrease.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Helpers.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Mvc.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Optimization.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Razor.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.Deployment.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.WebPages.Razor.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Antlr3.Runtime.pdb
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Newtonsoft.Json.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\EntityFramework.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
+c:\users\renan.lopes\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\renan.lopes\Documents\Visual Studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+C:\Users\renan.lopes\Documents\Visual Studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+C:\Users\renan.lopes\Documents\Visual Studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Users\renan.lopes\Documents\Visual Studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Vidly.dll.config
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Vidly.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Vidly.pdb
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Antlr3.Runtime.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\EntityFramework.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Web.Infrastructure.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Newtonsoft.Json.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Owin.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Helpers.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Mvc.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Optimization.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Razor.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.Deployment.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.Razor.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\WebGrease.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Helpers.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Mvc.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Optimization.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Razor.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.Deployment.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.WebPages.Razor.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Antlr3.Runtime.pdb
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Newtonsoft.Json.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\EntityFramework.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.Movies.resources
