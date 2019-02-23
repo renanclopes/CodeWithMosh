@@ -122,3 +122,9 @@ C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsT
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMemberShipType.resources
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMemberShipName.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthDateToCustomer.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieGenre.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenre.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.fixMovieGenreModel.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMovieGenreNames.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMoreInfoAboutMovies.resources
