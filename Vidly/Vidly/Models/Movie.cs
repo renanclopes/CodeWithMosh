@@ -14,8 +14,10 @@ namespace Vidly.Models
         [MaxLength(255)]
         public string Name { get; set;}
 
-        [Required]
         public MovieGenre Genre { get; set; }
+
+        [Required]
+        public int GenreId { get; set; }
 
         [Required]
         public DateTime ReleaseDate { get; set; }
