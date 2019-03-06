@@ -172,6 +172,14 @@
     <Compile Include="Migrations\201903011836093_Full.Designer.cs">
       <DependentUpon>201903011836093_Full.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903061212268_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201903061212268_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201903061212268_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903061426519_PopulateMovieGenres.cs" />
+    <Compile Include="Migrations\201903061426519_PopulateMovieGenres.Designer.cs">
+      <DependentUpon>201903061426519_PopulateMovieGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -262,6 +270,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201903011836093_Full.resx">
       <DependentUpon>201903011836093_Full.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903061212268_PopulateMembershipTypes.resx">
+      <DependentUpon>201903061212268_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903061426519_PopulateMovieGenres.resx">
+      <DependentUpon>201903061426519_PopulateMovieGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
