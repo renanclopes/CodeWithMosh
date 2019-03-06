@@ -114,6 +114,6 @@ C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.Full.resources
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
-C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenres.resources
+C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
