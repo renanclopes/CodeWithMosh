@@ -11,6 +11,7 @@ namespace Vidly.Models
         [StringLength(255)]
         public string Name { get; set; }
 
+        [Min18YearIfMember]
         [Display(Name = "Day of Birth")]
         public DateTime? BirthDate { get; set; }
 
