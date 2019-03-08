@@ -116,4 +116,9 @@ C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.Full.resources
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenres.resources
-C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
