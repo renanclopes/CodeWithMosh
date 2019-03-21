@@ -124,4 +124,3 @@ C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\AutoMapper.dll
 C:\Estudos\CodeWithMosh\Vidly\Vidly\bin\AutoMapper.xml
-C:\Estudos\CodeWithMosh\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
