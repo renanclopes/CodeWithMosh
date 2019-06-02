@@ -8,16 +8,14 @@ namespace DbFirst
     {
         static void Main(string[] args)
         {
-
             var author = new Author { Name = "Renan Camargo Lopes" };
             var authorPersistence = new PlutoDataBasePersist<Author>(author);
 
             var course = new Course {
                 Title = "Teste",
                 Description = "Teste",
-                Price = 49,
+                FullPrice = 49,
                 Level = 1,
-                LevelString = "Advanced",
                 AuthorID = 13
             };
             var coursePersistence = new PlutoDataBasePersist<Course>(course);
