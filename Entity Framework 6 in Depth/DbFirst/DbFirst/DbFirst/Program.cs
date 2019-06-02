@@ -10,73 +10,111 @@ namespace DbFirst
         {
 
             var author = new Author { Name = "Renan Camargo Lopes" };
+            var authorPersistence = new PlutoDataBasePersist<Author>(author);
 
-            var persist = new PlutoDataBasePersist<Author> { Entity = author };
+            var course = new Course {
+                Title = "Teste",
+                Description = "Teste",
+                Price = 49,
+                Level = 1,
+                LevelString = "Advanced",
+                AuthorID = 13
+            };
+            var coursePersistence = new PlutoDataBasePersist<Course>(course);
 
-            var result = persist.SaveChangesAsync();
-
-            while (persist.Executing)
+            authorPersistence.SaveChanges();
+            while (authorPersistence.Executing)
             {
                 Console.Write(".");
                 Thread.Sleep(100);
             }
+
+            coursePersistence.SaveChanges();
+            while (authorPersistence.Executing)
+            {
+                Console.Write(".");
+                Thread.Sleep(100);
+            }
+
+            Console.WriteLine("End of execution");
+
+
+            Console.ReadKey();
         }
 
     }
 
     public class PlutoDataBasePersist<T> where T : class
     {
+        public PlutoDbContext _context;
         public bool Executing;
         public T Entity { get; set; }
 
-        public void SaveChanges()
+        public PlutoDataBasePersist(T entity)
         {
-            Thread.Sleep(6000);
-            this.Executing = true;
-
-            SaveChangesAsync();
-
-            Executing = false;
-
+            _context = new PlutoDbContext();
+            Entity = entity;
         }
 
-        public async Task<bool> SaveChangesAsync()
+        public async void SaveChanges()
         {
             try
             {
-                var type = Entity.GetType();
+                Executing = true;
+                Console.WriteLine($"Saving changes to {Entity.GetType().Name}");
 
-                var dbcontext = new PlutoDbContext();
+                await SaveAsync();
 
-                switch (type.Name)
+                Console.WriteLine("Done!");
+
+                Executing = false;
+            }
+            catch (System.Data.Entity.Validation.DbEntityValidationException entityValidation)
+            {
+                Console.WriteLine($"Save changes error on entity {Entity.GetType().Name}: {entityValidation.Message}");
+
+                var validationErrors = entityValidation.EntityValidationErrors;
+
+                foreach (var errorCollection in validationErrors)
+                {
+                    foreach (var error in errorCollection.ValidationErrors)
+                    {
+                        Console.WriteLine($"{ error.PropertyName} : {error.ErrorMessage}");
+                    }
+                }
+
+                Executing = false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Save changes error on entity {Entity.GetType().Name}: {ex.Message}");
+                Executing = false;
+            }
+            
+        }
+
+        private Task SaveAsync()
+        {
+            return Task.Factory.StartNew(() =>
+            {
+                switch (Entity.GetType().Name)
                 {
                     case "Author":
                         var author = (Author)(object)Entity;
-                        dbcontext.Authors.Add(author);
+                        _context.Authors.Add(author);
+                        _context.SaveChanges();
                         break;
+
                     case "Course":
                         var course = (Course)(object)Entity;
-                        dbcontext.Courses.Add(course);
+                        _context.Courses.Add(course);
+                        _context.SaveChanges();
                         break;
+
                     default:
-                        break;
+                        throw new NotImplementedException($"Persist method not implemented for the class {Entity.GetType().Name}");
                 }
-
-                await dbcontext.SaveChangesAsync();
-                Executing = false;
-
-                return true;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                Executing = false;
-                return false;
-            }
-            finally
-            {
-                Executing = false;
-            }
+            });
         }
     }
 }
