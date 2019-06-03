@@ -8,49 +8,46 @@ namespace DbFirst
     {
         static void Main(string[] args)
         {
+            //PersistenceTest();
+
+            var context = new PlutoDbContext();
+            var courses = context.GetCourses();
+
+            foreach (var course in courses)
+            {
+                Console.WriteLine(course.Title);
+            }
+            Console.ReadKey();
+        }
+
+        public static void PersistenceTest()
+        {
             var author = new Author { Name = "Renan Camargo Lopes" };
             var authorPersistence = new PlutoDataBasePersist<Author>(author);
 
-            var course = new Course {
-                Title = "Teste",
-                Description = "Teste",
-                FullPrice = 49,
-                Level = 1,
-                AuthorID = 13
-            };
-            var coursePersistence = new PlutoDataBasePersist<Course>(course);
-
             authorPersistence.SaveChanges();
-            while (authorPersistence.Executing)
-            {
-                Console.Write(".");
-                Thread.Sleep(100);
-            }
 
-            coursePersistence.SaveChanges();
             while (authorPersistence.Executing)
             {
                 Console.Write(".");
-                Thread.Sleep(100);
+                Thread.Sleep(300);
             }
 
             Console.WriteLine("End of execution");
 
-
             Console.ReadKey();
         }
-
     }
 
     public class PlutoDataBasePersist<T> where T : class
     {
-        public PlutoDbContext _context;
+        public PlutoDbContext Context;
         public bool Executing;
         public T Entity { get; set; }
 
         public PlutoDataBasePersist(T entity)
         {
-            _context = new PlutoDbContext();
+            Context = new PlutoDbContext();
             Entity = entity;
         }
 
@@ -88,25 +85,27 @@ namespace DbFirst
                 Console.WriteLine($"Save changes error on entity {Entity.GetType().Name}: {ex.Message}");
                 Executing = false;
             }
-            
+
         }
 
         private Task SaveAsync()
         {
             return Task.Factory.StartNew(() =>
             {
+                Thread.Sleep(6000);
+
                 switch (Entity.GetType().Name)
                 {
                     case "Author":
                         var author = (Author)(object)Entity;
-                        _context.Authors.Add(author);
-                        _context.SaveChanges();
+                        Context.Authors.Add(author);
+                        Context.SaveChanges();
                         break;
 
                     case "Course":
                         var course = (Course)(object)Entity;
-                        _context.Courses.Add(course);
-                        _context.SaveChanges();
+                        Context.Courses.Add(course);
+                        Context.SaveChanges();
                         break;
 
                     default:
@@ -114,5 +113,11 @@ namespace DbFirst
                 }
             });
         }
+
+
+
     }
+
+
+
 }
