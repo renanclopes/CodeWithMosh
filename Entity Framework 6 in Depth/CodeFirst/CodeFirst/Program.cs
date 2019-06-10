@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 
 namespace CodeFirst
@@ -43,15 +41,12 @@ namespace CodeFirst
         public DbSet<Author> Authors { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
-        public PlutoContext() 
-            :base("name=DefaultConnection")
-        {
-        }
+        public PlutoContext() :base("name=DefaultConnection") {}
     }
 
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
         }
     }
